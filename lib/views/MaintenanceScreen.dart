@@ -9,7 +9,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../AppTheme.dart';
 import '../AppThemeNotifier.dart';
-import 'ScreenLocationPermission.dart';
 
 //----------------------------- Maintenance Screen -------------------------------//
 
@@ -37,7 +36,7 @@ class _MaintenanceScreenState extends State<MaintenanceScreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (BuildContext context) => ScreenLocationPermission(),
+            builder: (BuildContext context) => AppScreen(),
           ),
         );
       } else {

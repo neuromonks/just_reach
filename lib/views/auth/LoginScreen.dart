@@ -7,7 +7,6 @@ import 'package:EMallApp/services/AppLocalizations.dart';
 import 'package:EMallApp/utils/SizeConfig.dart';
 import 'package:EMallApp/utils/Validator.dart';
 import 'package:EMallApp/views/AppScreen.dart';
-import 'package:EMallApp/views/ScreenLocationPermission.dart';
 import 'package:EMallApp/views/auth/ForgotPasswordScreen.dart';
 import 'package:EMallApp/views/auth/RegisterScreen.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (BuildContext context) => ScreenLocationPermission(),
+          builder: (BuildContext context) => AppScreen(),
         ),
       );
     }
@@ -102,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (BuildContext context) => ScreenLocationPermission(),
+            builder: (BuildContext context) => AppScreen(),
           ),
         );
       } else {

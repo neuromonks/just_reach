@@ -7,7 +7,6 @@ import 'package:EMallApp/services/AppLocalizations.dart';
 import 'package:EMallApp/utils/SizeConfig.dart';
 import 'package:EMallApp/utils/Validator.dart';
 import 'package:EMallApp/views/AppScreen.dart';
-import 'package:EMallApp/views/ScreenLocationPermission.dart';
 import 'package:EMallApp/views/auth/LoginScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -87,7 +86,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(
-            builder: (BuildContext context) => ScreenLocationPermission(),
+            builder: (BuildContext context) => AppScreen(),
           ),
           (route) => false,
         );

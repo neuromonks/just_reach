@@ -13,7 +13,6 @@ import 'package:EMallApp/views/AppScreen.dart';
 import 'package:EMallApp/views/CheckoutOrderScreen.dart';
 import 'package:EMallApp/views/LoadingScreens.dart';
 import 'package:EMallApp/views/ProductScreen.dart';
-import 'package:EMallApp/views/ScreenLocationPermission.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
@@ -231,8 +230,7 @@ class _CartScreenState extends State<CartScreen> {
                     Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                            builder: (BuildContext context) =>
-                                ScreenLocationPermission()));
+                            builder: (BuildContext context) => AppScreen()));
                   },
                   child: Text(Translator.translate("lets_shopping"),
                       style: AppTheme.getTextStyle(

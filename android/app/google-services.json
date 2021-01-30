@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633675328388",
+    "project_id": "just-reach",
+    "storage_bucket": "just-reach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633675328388:android:fe5df8147b2ed0e2c50bd1",
+        "android_client_info": {
+          "package_name": "neuro.monk.EMallApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633675328388-trbg69ti3u9dc1i570imd9orclmbu09h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "neuro.monk.EMallApp",
+            "certificate_hash": "c13b8b8172850e7ab77c1a1e92507b3b0f663d6c"
+          }
+        },
+        {
+          "client_id": "633675328388-hlr31050o9af0gdm3etfc1mipdnm7qh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_lPTI7U56kOxo9BJmeiNoUCKA0dtiIVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633675328388-hlr31050o9af0gdm3etfc1mipdnm7qh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

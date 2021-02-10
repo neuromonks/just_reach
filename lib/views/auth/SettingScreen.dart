@@ -66,6 +66,7 @@ class _SettingScreenState extends State<SettingScreen> {
 
   buildBody() {
     if (account != null) {
+      print('aeeeeeerr ' + account.getAvatarUrl().toString());
       return ListView(
         children: <Widget>[
           Container(
@@ -253,13 +254,11 @@ class _SettingScreenState extends State<SettingScreen> {
               onTap: () {
                 showDialog(
                     context: context,
-                    builder: (BuildContext context) =>
-                        SelectLanguageDialog());
+                    builder: (BuildContext context) => SelectLanguageDialog());
               },
               title: Text(
                 Translator.translate("select_language"),
-                style: AppTheme.getTextStyle(
-                    themeData.textTheme.subtitle2,
+                style: AppTheme.getTextStyle(themeData.textTheme.subtitle2,
                     fontWeight: 600),
               ),
               trailing: Icon(Icons.chevron_right,
@@ -308,5 +307,4 @@ class _SettingScreenState extends State<SettingScreen> {
       return Container();
     }
   }
-
 }

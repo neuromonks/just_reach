@@ -262,7 +262,7 @@ class AuthController {
     String email = sharedPreferences.getString('email');
     String token = sharedPreferences.getString('token');
     String avatarUrl = sharedPreferences.getString('avatar_url');
-
+    print('ewoejrowerw ' + avatarUrl.toString());
     return Account(name, email, token, avatarUrl);
   }
 

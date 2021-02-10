@@ -4,6 +4,8 @@ class TextUtils {
   static String getImageUrl(String url,
       {bool withoutStoragePrefix = true, bool withoutIPPrefix = true}) {
     if (withoutIPPrefix && withoutStoragePrefix) {
+      print('rohit gsss');
+      print(url);
       return ApiUtil.BASE_URL + "storage/" + url;
     }
 

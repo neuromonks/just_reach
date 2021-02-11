@@ -129,12 +129,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     child: ListView(
                       padding: Spacing.top(150),
                       children: <Widget>[
-                        Container(
+                        ClipOval(
                           child: Image.asset(
-                            './assets/images/main_logo.png',
-                            color: themeData.colorScheme.primary,
-                            width: 54,
-                            height: 54,
+                            'assets/images/logo.png',
+                            width: 50,
+                            height: 50,
                           ),
                         ),
                         Center(

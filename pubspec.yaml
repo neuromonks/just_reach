@@ -82,7 +82,7 @@ flutter:
     - assets/images/offer-icon.png
     - assets/images/shopping.png
     - assets/images/app_logo.png
-    - assets/images/main_logo.png
+    - assets/images/logo.png
 
     #Placeholder Images
     - assets/images/placeholder/no-product-image.png

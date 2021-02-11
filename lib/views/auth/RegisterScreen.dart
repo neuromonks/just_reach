@@ -125,8 +125,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       children: <Widget>[
                         Container(
                           child: Image.asset(
-                            './assets/images/main_logo.png',
-                            color: themeData.colorScheme.primary,
+                            './assets/images/logo.png',
                             width: 54,
                             height: 54,
                           ),
